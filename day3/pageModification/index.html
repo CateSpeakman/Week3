@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Page Modification</title>
+</head>
+
+<body class="container-fluid">
+    <h1 class="jumbotron">Page Modification</h1>
+    <main>
+        <h2>Welcome to Page O'Fun!!</h2>
+        <section>
+            <h3>Please select an activity/activities below that you would be interested in.</h3>
+            <div class="container">
+                <div class="row my-3">
+                    <select id="activities" name="activities">
+                        <!--<option value="choose">Choose one..</option>-->
+                        <option id="biking" value="biking">Biking</option>
+                        <option id="boardgames" value="boardgames">Board Games</option>
+                        <option id="ferriswheel" value="ferriswheel">State Fairs</option>
+                        <option id="minigolf" value="minigolf">Mini golf</option>
+                        <option id="parasailing" value="parasailing">Parasailing</option>
+                        <option id="rockclimbing" value="rockclimbing">Rock Climbing</option>
+                        <option id="rollercoaster" value="rollercoaster">Amusement Parks</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button id="addBtn" class="btn btn-primary" type="submit" value="submit">Add</button>
+                    <button id="removeBtn" class="btn btn-primary" type="reset" value="reset">Remove</button>
+                </div>
+            </div>
+            <div id="locationDiv">
+
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="scripts/pagemod.js"></script>
+</body>
+
+</html>
